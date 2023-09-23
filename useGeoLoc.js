@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function useCurrentLocation() {
+function useGeoLoc() {
   const [location, setLocation] = useState({});
   const [err, setError] = useState(null);
   const [status, setStatus] = useState(null);
@@ -48,4 +48,4 @@ function useCurrentLocation() {
   return { location, err, status };
 }
 
-export default useCurrentLocation;
+export default useGeoLoc;
