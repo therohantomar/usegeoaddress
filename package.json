@@ -1,6 +1,6 @@
 {
   "name": "usegeoloc",
-  "version": "2.0.0",
+  "version": "2.3.3",
   "description": "npm-package-name is a lightweight npm package that retrieves users' current location, including city, district, and region details. It also handles location permission errors seamlessly for a smooth user experience.",
   "main": "useGeoLoc.js",
   "scripts": {
