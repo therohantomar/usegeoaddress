@@ -1,0 +1,44 @@
+{
+  "name": "usegeoloc",
+  "version": "1.0.0",
+  "description": "npm-package-name is a lightweight npm package that retrieves users' current location, including city, district, and region details. It also handles location permission errors seamlessly for a smooth user experience.",
+  "main": "useGeoLoc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therohantomar/useGeoLoc.git"
+  },
+  "keywords": [
+    "geolocation",
+    "user",
+    "location",
+    "current",
+    "location",
+    "precise",
+    "location",
+    "location",
+    "details",
+    "city",
+    "district",
+    "region",
+    "coordinates",
+    "latitude",
+    "longitude",
+    "user",
+    "experience",
+    "permission",
+    "handling"
+  ],
+  "author": "therohantomar@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therohantomar/useGeoLoc/issues"
+  },
+  "homepage": "https://github.com/therohantomar/useGeoLoc#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
