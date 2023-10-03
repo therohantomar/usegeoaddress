@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-function useGeoLoc() {
-  const [location, setLocation] = useState({});
+function usegeoaddress() {
+  const [address, setAddress] = useState({});
   const [err, setError] = useState(null);
   const [status, setStatus] = useState(null);
   useEffect(() => {
@@ -18,7 +18,7 @@ function useGeoLoc() {
           .then((res) => res.json())
           .then((data) => {
             if (isMounted) {
-              setLocation(data);
+              setAddress(data?.address);
             }
           })
           .catch((error) => {
@@ -45,7 +45,9 @@ function useGeoLoc() {
     };
   }, []);
 
-  return { location, err, status };
+  return { address, err, status };
 }
 
-export default useGeoLoc;
+export default usegeoaddress
+
+
